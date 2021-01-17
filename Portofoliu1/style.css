@@ -14,7 +14,10 @@ html {
   padding: 1rem 8rem;
   z-index: 1000;
 }
-
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
 
 #navbarSupportedContent > ul > li:nth-child(n) > a {
   color: #fff;
@@ -22,6 +25,10 @@ html {
   padding: 0 0.8rem;
 }
 
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a.active {
+  color: #00bf85;
+}
 
 #navbarSupportedContent > button {
   background: #00bf85;
@@ -70,7 +77,9 @@ html {
   border-radius: 30px;
   text-decoration: none;
 }
-
+.mid .hero a:hover {
+  background: #fff;
+}
 .about {
   background: #000;
 }
@@ -84,9 +93,9 @@ html {
 }
 
 .about .text h6 {
-  color: #f7f5f4;
+  color:#FFFFFF;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 1rem;
   letter-spacing: 2px;
 }
 
@@ -96,8 +105,14 @@ html {
   font-size: 2.7rem;
 }
 
+.about .text p {
+  color: #f7f5f4;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
 .about .text a {
-  background: #00bf85;
+  background: #00bf7f;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
@@ -115,22 +130,17 @@ html {
 
 .discovery .text h6 {
   color: #363636;
-  font-weight:regular;
-  font-size: 20px;
+  font-weight: lighter;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
 .discovery .text h2 {
-  color: #111;
-  font-weight: 700;
+  color: #363636;
+  font-weight: bold;
   font-size: 2.7rem;
 }
 
-.discovery .text p {
-  font-weight: 400;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-}
 .discovery .text a {
   background: #111;
   font-weight: 500;
@@ -140,45 +150,66 @@ html {
   color: #fff;
 }
 
-
-
-.resume {
-  background: #000;
-}
-
-.resume .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: auto;
-}
-
-.resume .text h6 {
-  color: #f7f5f4;
+.information .text h6 {
+  color:#363636;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 1rem;
   letter-spacing: 2px;
 }
 
+.information .text h2 {
+  color:#363636;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+a.btn-first{
+  background: #3F3D56;
+  font-weight: normal;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .resume .text h2 {
-  color: #f7f5f4;
-  font-weight: 700;
+  color: #363636;
+  font-weight: normal;
   font-size: 2.7rem;
 }
 
 .resume .text a {
-  background: #00bf85;
-  font-weight: 600;
+  background:  #3F3D56;
+  font-weight: normal;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color: #111;
+  color:  #FFFFFF;
 }
+
 
 @media screen and (max-width: 988px) {
   .navbar {
     padding: 1rem;
   }
 
+  #navbarSupportedContent > ul {
+    padding-left: 0.8rem;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+    padding: 0.8rem 0;
+  }
+
+  .mid .hero h2 {
+    font-size: 2.5rem;
+  }
+
+  .mid .hero p {
+    font-size: 1rem;
+  }
+
+  .mid .hero a {
+    font-size: 0.9rem;
+  }
 }
