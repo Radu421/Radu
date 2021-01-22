@@ -130,7 +130,7 @@ html {
 
 .discovery .text h6 {
   color: #363636;
-  font-weight: lighter;
+  font-weight: regular;
   font-size: 18px;
   letter-spacing: 2px;
 }
@@ -152,7 +152,7 @@ html {
 
 .information .text h6 {
   color:#363636;
-  font-weight: lighter;
+  font-weight: regular;
   font-size: 1rem;
   letter-spacing: 2px;
 }
