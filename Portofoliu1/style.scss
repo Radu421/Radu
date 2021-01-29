@@ -2,11 +2,9 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +14,6 @@ html {
   padding: 1rem 8rem;
   z-index: 1000;
 }
-
 .navbar .navbar-brand {
   font-size: 1.4rem;
   font-weight: 700;
@@ -44,33 +41,22 @@ html {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .mid video {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   pointer-events: none;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .mid .hero {
@@ -91,34 +77,23 @@ html {
   border-radius: 30px;
   text-decoration: none;
 }
-
 .mid .hero a:hover {
   background: #fff;
 }
-
 .about {
   background: #000;
 }
 
 .about .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: auto;
 }
 
 .about .text h6 {
-  color: #FFFFFF;
+  color:#FFFFFF;
   font-weight: lighter;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -136,7 +111,6 @@ html {
   font-size: 1.1rem;
   letter-spacing: 0.5px;
 }
-
 .about .text a {
   background: #00bf7f;
   font-weight: 600;
@@ -147,19 +121,10 @@ html {
 }
 
 .discovery .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: auto;
 }
 
@@ -186,19 +151,19 @@ html {
 }
 
 .information .text h6 {
-  color: #363636;
+  color:#363636;
   font-weight: regular;
   font-size: 1rem;
   letter-spacing: 2px;
 }
 
 .information .text h2 {
-  color: #363636;
+  color:#363636;
   font-weight: bold;
   font-size: 2.7rem;
 }
 
-a.btn-first {
+a.btn-first{
   background: #3F3D56;
   font-weight: normal;
   padding: 0.6rem 1.4rem;
@@ -214,32 +179,37 @@ a.btn-first {
 }
 
 .resume .text a {
-  background: #3F3D56;
+  background:  #3F3D56;
   font-weight: normal;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color: #FFFFFF;
+  color:  #FFFFFF;
 }
+
 
 @media screen and (max-width: 988px) {
   .navbar {
     padding: 1rem;
   }
+
   #navbarSupportedContent > ul {
     padding-left: 0.8rem;
   }
+
   #navbarSupportedContent > ul > li:nth-child(n) > a {
     padding: 0.8rem 0;
   }
+
   .mid .hero h2 {
     font-size: 2.5rem;
   }
+
   .mid .hero p {
     font-size: 1rem;
   }
+
   .mid .hero a {
     font-size: 0.9rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
