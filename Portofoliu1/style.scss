@@ -5,12 +5,25 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+$white: #fff;
+$green:#00bf85;
+$dark:#131313;
+$grey-dark:#000;
+$white-white:#f7f5f4;
+$darker:#111;
+$green-apple:#00bf7f;
+$grey: #363636;
+$light-gray:#3F3D56;
+$text: 1.1rem;
+$font-bold:bold;
+
 html {
   scroll-behavior: smooth;
 }
 
 .navbar {
-  background: #131313;
+  background: $dark;
   padding: 1rem 8rem;
   z-index: 1000;
 }
@@ -20,18 +33,18 @@ html {
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a {
-  color: #fff;
-  font-size: 1.1rem;
+  color: $white;
+  font-size: $text;
   padding: 0 0.8rem;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover,
 #navbarSupportedContent > ul > li:nth-child(n) > a.active {
-  color: #00bf85;
+  color: $green;
 }
 
 #navbarSupportedContent > button {
-  background: #00bf85;
+  background: $green;
   font-weight: 600;
   padding: 0.4rem 1.4rem;
   border-radius: 30px;
@@ -65,23 +78,23 @@ html {
 
 .mid .hero p {
   width: 55%;
-  font-size: 1.1rem;
+  font-size: $text;
   letter-spacing: 0.2px;
   padding-bottom: 1rem;
 }
 
 .mid .hero a {
-  background: #00bf85;
+  background: $green;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
 }
 .mid .hero a:hover {
-  background: #fff;
+  background: $white;
 }
 .about {
-  background: #000;
+  background: $grey-dark;
 }
 
 .about .text {
@@ -93,31 +106,31 @@ html {
 }
 
 .about .text h6 {
-  color:#FFFFFF;
+  color:$white;
   font-weight: lighter;
   font-size: 1rem;
   letter-spacing: 2px;
 }
 
 .about .text h2 {
-  color: #f7f5f4;
+  color:$white-white;
   font-weight: 700;
   font-size: 2.7rem;
 }
 
 .about .text p {
-  color: #f7f5f4;
+  color: $white-white;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: $text;
   letter-spacing: 0.5px;
 }
 .about .text a {
-  background: #00bf7f;
+  background: $green-apple;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color: #111;
+  color: $darker;
 }
 
 .discovery .text {
@@ -129,62 +142,62 @@ html {
 }
 
 .discovery .text h6 {
-  color: #363636;
+  color: $grey;
   font-weight: regular;
   font-size: 18px;
   letter-spacing: 2px;
 }
 
 .discovery .text h2 {
-  color: #363636;
-  font-weight: bold;
+  color: $grey;
+  font-weight: $font-bold;
   font-size: 2.7rem;
 }
 
 .discovery .text a {
-  background: #111;
+  background: $darker;
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color: #fff;
+  color: $white;
 }
 
 .information .text h6 {
-  color:#363636;
+  color:$grey;
   font-weight: regular;
   font-size: 1rem;
   letter-spacing: 2px;
 }
 
 .information .text h2 {
-  color:#363636;
-  font-weight: bold;
+  color:$grey;
+  font-weight: $font-bold;
   font-size: 2.7rem;
 }
 
 a.btn-first{
-  background: #3F3D56;
+  background: $light-gray;
   font-weight: normal;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .resume .text h2 {
-  color: #363636;
+  color: $grey;
   font-weight: normal;
   font-size: 2.7rem;
 }
 
 .resume .text a {
-  background:  #3F3D56;
+  background:  $light-gray;
   font-weight: normal;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   text-decoration: none;
-  color:  #FFFFFF;
+  color:  $white;
 }
 
 
